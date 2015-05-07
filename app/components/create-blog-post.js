@@ -10,7 +10,7 @@ export default Ember.Component.extend({
         createdDate: new Date()
       });
       post.save();
-      $("#NewPost")[0].reset();
+      Ember.$("#NewPost")[0].reset();
     }
   }
 });
