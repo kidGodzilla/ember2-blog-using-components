@@ -1,13 +1,13 @@
 <h3>Create a New Post</h3>
 <form id="NewPost">
     <p>
-      {{input value=post.title placeholder="Title"}}
-      {{input value=post.author placeholder="Author"}}
+      {{input value=attrs.post.title placeholder="Title"}}
+      {{input value=attrs.post.author placeholder="Author"}}
     </p>
     <p>
-      {{textarea value=post.text placeholder="Content" rows="10" cols="140"}}
+      {{textarea value=attrs.post.text placeholder="Content" rows="10" cols="140"}}
     </p>
     <p>
-        <button {{action "createPost" post}}>Publish</button>
+        <button {{action "createPost" attrs.post}}>Publish</button>
     </p>
 </form>
