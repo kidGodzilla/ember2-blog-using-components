@@ -6,6 +6,8 @@ This README outlines the details of collaborating on this Ember application.
 
 A demo has been deployed to https://ember2-blog.firebaseapp.com/
 
+A draft of the Medium article accompanying this repo is available at https://medium.com/@jamesfuthey/8ef1f378ee4
+
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
