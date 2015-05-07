@@ -2,8 +2,8 @@ import Ember from 'ember';
 
 export default Ember.Component.extend({
   actions: {
-    createPost: function (model) {
-      var post = this.store.createRecord('post', {
+    createPost: (model) => {
+      let post = this.store.createRecord('post', {
         title: model.title,
         text: model.text,
         author: model.author,
