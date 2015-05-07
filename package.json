@@ -1,7 +1,7 @@
 {
-  "name": "thomas-blog",
+  "name": "ember2-blog-using-components",
   "version": "0.0.0",
-  "description": "Small description for thomas-blog goes here",
+  "description": "Small description for ember2-blog-using-components goes here",
   "private": true,
   "directories": {
     "doc": "doc",
